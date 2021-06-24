@@ -1,36 +1,18 @@
-print('hello')
-
-print("i don't now")
-print('say "i don\'t now"')
-print("say \"i don't now\"")
-print('hello. How are you?')
-
-print('hello. \nHow are you?')
-print(r'C:\nam\name')
+s = 'My name is Mike. Hi Mike.'
+print(s)
+is_start = s.startswith('m')
+print(is_start)
 
 print('###########')
-print("""\
-line1
-line2
-line3\
-""")
-print('###########')
-word = 'python'
-print(word[0])
-print(word[-1])
-print(word[2:5])
-print(word[:2])
-print(word[0:])
 
-word = "j" + word[1:]
-print(word)
-n = len(word)
-
-print(n)
-
-
-
-
+print(s.find('Mike'))
+print(s.rfind('Mike'))
+print(s.count('Mike'))
+print(s.capitalize())
+print(s.title())
+print(s.upper())
+print(s.lower())
+print(s.replace('Mike', 'Nancy'))
 
 
 
