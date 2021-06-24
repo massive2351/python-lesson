@@ -1,9 +1,18 @@
-import math
+print('hello')
 
-result = math.sqrt(25)
-print(result)
+print("i don't now")
+print('say "i don\'t now"')
+print("say \"i don't now\"")
+print('hello. How are you?')
 
-y = math.log2(10)
-print(y)
+print('hello. \nHow are you?')
+print(r'C:\nam\name')
 
-print(help(math))
+print('###########')
+print("""\
+line1
+line2
+line3\
+""")
+print('###########')
+
