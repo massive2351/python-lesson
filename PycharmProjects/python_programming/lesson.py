@@ -1,18 +1,16 @@
-s = 'My name is Mike. Hi Mike.'
-print(s)
-is_start = s.startswith('m')
-print(is_start)
+r = [1,2,3,4,5,1,2,3]
 
-print('###########')
+print(r.index(3,3))
+print(r.count(3))
 
-print(s.find('Mike'))
-print(s.rfind('Mike'))
-print(s.count('Mike'))
-print(s.capitalize())
-print(s.title())
-print(s.upper())
-print(s.lower())
-print(s.replace('Mike', 'Nancy'))
+if 100 in r:
+    print('exit')
 
+r.sort()
+print(r)
 
+s = 'My name is Mike.'
+to_split = s.split()
+print(to_split)
 
+print(help(list))
