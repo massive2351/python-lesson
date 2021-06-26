@@ -1,20 +1,19 @@
 
-a = 1
-b = 1
+y = [1,2,3]
+x = 1
 
-#aがbと等しい
-a == b:
-#aがbと異なる
-a != b
-#aがbよりも小さい
-a < b
-#aがbよりも大きい
-a > b
-#aがb以下である
-a <= b
-#aがb以上である
-a >= b
-#aもbも真であれば真
-a > 0 and b > 0
-#aまたはbが真であれば真
-a > 0 or b > 0
+if x in y:
+    print('in')
+
+if 100 not in y:
+    print('not in')
+
+a = 1
+b = 2
+
+if not a == b:
+    print('Not equal')
+
+if a != b:
+    print('Not equal')
+
