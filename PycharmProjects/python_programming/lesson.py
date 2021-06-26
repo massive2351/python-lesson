@@ -1,14 +1,20 @@
-x = 10
 
-if x < 0:
-    print('negative')
-elif x == 0:
-    print('zero')
-else:
-    print('posi')
+a = 1
+b = 1
 
-a = 5
-b =10
-if a > 0:
-    print('a is posi')
-    if b > 0:
+#aがbと等しい
+a == b:
+#aがbと異なる
+a != b
+#aがbよりも小さい
+a < b
+#aがbよりも大きい
+a > b
+#aがb以下である
+a <= b
+#aがb以上である
+a >= b
+#aもbも真であれば真
+a > 0 and b > 0
+#aまたはbが真であれば真
+a > 0 or b > 0
