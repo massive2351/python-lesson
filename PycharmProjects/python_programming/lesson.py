@@ -12,4 +12,3 @@ b =10
 if a > 0:
     print('a is posi')
     if b > 0:
-        print('b is posi')
