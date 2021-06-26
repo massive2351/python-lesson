@@ -1,19 +1,8 @@
 
-y = [1,2,3]
-x = 1
+is_ok = 100
 
-if x in y:
-    print('in')
-
-if 100 not in y:
-    print('not in')
-
-a = 1
-b = 2
-
-if not a == b:
-    print('Not equal')
-
-if a != b:
-    print('Not equal')
+if is_ok:
+    print("ok")
+else:
+    print("NO")
 
