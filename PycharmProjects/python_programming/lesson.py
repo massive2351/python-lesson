@@ -1,8 +1,7 @@
 
-is_ok = 100
+is_empty = None
+#print(help(is_empty))
 
-if is_ok:
-    print("ok")
-else:
-    print("NO")
+if is_empty is None:
+    print("None!!")
 
