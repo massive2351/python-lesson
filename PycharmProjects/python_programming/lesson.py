@@ -1,7 +1,12 @@
+count = 0
 
-is_empty = None
-#print(help(is_empty))
+while count < 5:
+    print(count)
+    count += 1
 
-if is_empty is None:
-    print("None!!")
+while True:
+    if count >= 5:
+        break
+    print(count)
+    count += 1
 
