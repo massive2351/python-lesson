@@ -1,5 +1,16 @@
+def say_something():
+    print('hi')
+
+f = say_something()
 
 
-d = {'x': 100, 'y':200}
-for k, v in d.items():
-    print(k, ':', v)
+def what_is_this(color):
+    if color == 'red':
+        return 'tomato'
+    elif color == 'green':
+        return 'green peppar'
+    else:
+        return "i don't know"
+
+print(what_is_this('red'))
+
