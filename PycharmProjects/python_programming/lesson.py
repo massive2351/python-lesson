@@ -1,7 +1,9 @@
-def menu(entree, drink, desert):
-    print(entree)
-    print(drink)
-    print(desert)
+import re
+sorce = 'english-word01.txt'
+with open(sorce) as f:
+    data = f.read()
 
-menu('beef', 'juce', 'ice')
+english_words = re.findall('[a-z]+', data)
+ja = re.findall('\s.*\n', data)
 
+for word in ja:
